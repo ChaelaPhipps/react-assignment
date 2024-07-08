@@ -11,7 +11,7 @@ body {
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
   grid-auto-rows: minmax(100px, auto); /* Auto-sized rows with a minimum height of 100px */
-  gap: 10px;
+  gap: 35px;
   width: 100%;
   max-width: 1600px; /* Optional: max width for the grid */
   padding: 10px; /* Optional: padding around the grid */
