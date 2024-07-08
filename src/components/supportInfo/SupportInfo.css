@@ -1,9 +1,11 @@
-
-html, body, #root {
-  height: 100%;
+body {
+    height: 100%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 244, 244); /* Optional: background color */
 }
-
 .support-grid {
   display: grid;
   flex-wrap: wrap;
@@ -16,27 +18,16 @@ html, body, #root {
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
-h1 {
-  margin: 0; /* Remove default margin */
-  font-size: 1.5em; /* Example font size */
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@media (max-width: 768px) {
   .support-grid .card {
-    width: calc(50% - 10px); /* Two columns on smaller screens */
+    background-color: rgb(244, 244, 244);
+    border: 1px;
+    padding: 0px 0px 6px;
+    text-align: left;
+    
   }
-}
 
-@media (max-width: 480px) {
-  .support-grid .card {
-    width: 100%; /* Full width on mobile screens */
-  }
-}
+  h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* font size */
+  } 
+ 

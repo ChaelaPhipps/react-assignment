@@ -1,0 +1,21 @@
+
+.crd {
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  border: none;
+  background-color: rgb(244, 244, 244);
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.whyNiyo {
+  color: rgb(251, 175, 0);
+  text-size-adjust: 20px;
+}
+
+.footer {
+   background: black;
+    color: white;
+    flex: 1; 
+}
+

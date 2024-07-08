@@ -1,0 +1,19 @@
+.footer {
+    background: black;
+    color: white;
+    flex: 1; 
+    justify-content: center;
+    display: "flex";
+    height: 300px;
+     
+  }
+
+  h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 3.5em; /* Example font size */
+    justify-content: center;
+    }
+
+  .highlight-tech {
+    color: rgb(251, 175, 0); /* Change this to the desired color */
+}
